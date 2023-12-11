@@ -1,4 +1,4 @@
-# PythonProjects
+# PythonProjects, 1st Semester
 
 Project 6
 
