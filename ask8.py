@@ -3,7 +3,7 @@ b=[]
 import random
 for i in range(30):
     a[i]=random.randint(-29,29)
-print "Η λίστα είναι η εξής:"
+print "List:"
 print a
 for i in range(30):
     x=a[i]
@@ -18,8 +18,8 @@ for i in range(30):
                         b.append(y)
                         b.append(z)
 if (len(b) != 0):
-    print "Οι συνδυασμοί τριάδων από τη λίστα με άθροισμα 0 είναι:"
+    print "The combinations of three consecutive numbers that add up to 0 are:"
     for l in range(0,len(b),3):
         print b[l], b[l+1], b[l+2]
 else:
-    print "Δεν υπάρχει συνδυασμός τριάδων από τη λίστα που έχουν άθροισμα 0."
+    print "There are no combinations of three consecutive numbers that add up to 0."
